@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding: 0px 10px;">
+        <div class="container-fluid" style="background-color: white; padding: 0px;">
+          <a class="navbar-brand fs-1 fw-bolder" href="#">Snap</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      features
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">
+                          <span>
+                             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><path fill="#3f51b5" d="m17.8 18.1l-7.4 7.3l-4.2-4.1L4 23.5l6.4 6.4l9.6-9.6zm0-13l-7.4 7.3l-4.2-4.1L4 10.5l6.4 6.4L20 7.3zm0 26l-7.4 7.3l-4.2-4.1L4 36.5l6.4 6.4l9.6-9.6z"/><path fill="#90caf9" d="M24 22h20v4H24zm0-13h20v4H24zm0 26h20v4H24z"/></svg>
+                          </span> Todo list</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                        <span>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024"><path fill="currentColor" d="m960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985m0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32m0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32m-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32m0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32m-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32m0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32"/></svg>
+                        </span> Calender</a></li>
+                      <li><a class="dropdown-item" href="#">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><g fill="none"><path fill="#6d4534" d="M19.157 30h-6.311c-.536 0-.943-.608-.826-1.243L12.535 26h6.933l.514 2.757c.108.635-.289 1.243-.825 1.243"/><path fill="#44911b" d="m14.877 6.714l-2.699 5.127c-.504.952.12 2.159 1.128 2.159h.602C11.747 14 10 15.592 10 17.561c0 .8.71 1.439 1.579 1.439h.144C9.116 19 7 21.227 7 23.971C7 25.649 8.294 27 9.878 27h12.244C23.716 27 25 25.639 25 23.971C25.01 21.227 22.894 19 20.277 19h.144C21.3 19 22 18.352 22 17.561C22 15.601 20.253 14 18.092 14h.602c1.007 0 1.632-1.196 1.128-2.16l-2.7-5.126c-.493-.952-1.741-.952-2.245 0"/></g></svg>
+                            </span> Reminders</a></li>
+                            
+                      <li><a class="dropdown-item" href="#">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><g fill="none" stroke-linejoin="round" stroke-width="4"><path fill="#2f88ff" stroke="#000" d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z"/><path stroke="#fff" stroke-linecap="round" d="M24.0084 12.0001L24.0072 24.0089L32.4866 32.4883"/></g></svg>
+                        </span> Planning</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  company
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">History</a></li>
+                  <li><a class="dropdown-item" href="#">Our Team </a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <a class="nav-link active" aria-current="page" href="#" style="padding: 8px;">Login</a>
+              <button class="btn btn-outline-dark" type="submit">Register</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="fs-1 fw-bolder" style="margin-top: 20%; font-size: 40px;">Make <br>remote work</p>
+            <h6 class="fw-light" style="margin-top: 5%;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Rem excepturi vero atque incidunt voluptate, nostrum, hic
+                  dolor asperiores dolorem in iusto mollitia, fugiat labor
+                  e necessitatibus delectus fuga quidem aliquid laborum?
+            </h6>
+            <button class="btn btn-outline-dark fw-bold" type="submit" style="margin-top: 8%;">Learn more</button>
+            <div class="d-flex flex-row mb-3">
+              <div class="p-2"><img src="images/colorful-abstract-painting-spiral-design_1136070-5488.jpg" style="border-radius: 50px; height: 40px; margin-top: 120px;"></div>
+              <div class="p-2"><img src="images/colorful-abstract-painting-spiral-design_1136070-5488.jpg" style="border-radius: 50px; height: 40px; margin-top: 120px;"></div>
+              <div class="p-2"><img src="images/colorful-abstract-painting-spiral-design_1136070-5488.jpg" style="border-radius: 50px; height: 40px; margin-top: 120px;"></div>
+              <div class="p-2"><img src="images/colorful-abstract-painting-spiral-design_1136070-5488.jpg" style="border-radius: 50px; height: 40px; margin-top: 120px;"></div>
+            </div>
+          </div>
+          <div class="col">
+            <img src="/images/nepali-man-working-comuter.jpg" alt="a man typing" class="img-thumbnail" >
+          </div>
+        </div>
+      </div>
+      <section class="p-3">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col col-lg-7">
+              <div>
+                <div id="carouselExample" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/painting-mountains-icebergs-with-blue-sky-clouds-background_188544-9758.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                    </div>
+                    <div class="carousel-item" id="picture">
+                      <img src="images/timelapse-video-photo-editing-process-from-start-finish_1314467-118510.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col col-lg-5" id="box">
+              <H2 class="fs-1 fw-bolder" id="writeup">MECHANICAL<BR>WIRELESS<BR>KEYBOARD</H2>
+                <h6 class="fs-6 fw-bolder" id="writeup">Lorem Ipsum is simply dummy text of t
+                  he printing and typesetting industry. Lor
+                  em Ipsum has been the industry's standard 
+                  dummy text ever since the 1500s,</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="background">
+        <section class="carousel-">
+          <h1 class="fw-bold">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48"><path fill="#2f88ff" stroke="white" stroke-linejoin="round" stroke-width="4" d="M23.9986 5L17.8856 17.4776L4 19.4911L14.0589 29.3251L11.6544 43L23.9986 36.4192L36.3454 43L33.9586 29.3251L44 19.4911L30.1913 17.4776L23.9986 5Z"/></svg>
+            FAQs
+          </h1>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Who is Subomi
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  ved as principal counsel and compa
+                  ny secretary between 1966 and 1975.[
+                  1] At NIDB, his interest in investment
+                  banking led him to advocate for the establ
+                  ishment of merchant bank sponsored by NIDB. When
+                   ICON securities, a merchant banking outfit was est
+                   ablished in 1973 as a subsidiary
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Who is Ronaldo
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Cristiano Ronaldo dos Santos Aveiro
+                  GOIH ComM (Portuguese pronunciation: 
+                  [kɾiʃtjɐnu ʁɔnaldu]; born 5 February 1985)
+                   is a Portuguese professional footballer who
+                   plays as a forward for and captains both Saudi Pro
+                    League club Al Nassr and the Portugal national team.
+                     Widely regarded as one 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Who is the GOAT
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  While Lionel Messi is widely regarded as the GO
+                  AT (Greatest of All Time) of football, there are
+                   other iconic figures who have left an indelible mark o
+                   n the game
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

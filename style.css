@@ -1,0 +1,39 @@
+body{
+    background-image: url(images/bubbles-beige-background_53876-99549.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+p.fs-1.fw-bolder {
+    font-size: 50px !important;
+    line-height: 60px;
+    font-weight: 800 !important;
+}
+#writeup{
+    text-align: left !important;
+    justify-content: left !important;
+    color: rgb(97, 87, 87);
+}
+#box{
+    padding: 7%;
+}
+#picture{
+    height: 430px;
+}
+.carousel-{
+    margin: auto;
+    width: 50%;
+    /* margin-bottom: 5%; */
+}
+.background{
+    background-image: url("images/background-round-abstract-gradient-color_483537-3352.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 1%;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
